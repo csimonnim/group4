@@ -1,0 +1,12 @@
+.inner{display: table; margin: 0px auto; border: 0px solid red}
+#container > br {display: none;}
+body{background:white url(images/header.gif) repeat-x; margin:0px; padding:0px}
+.account a{
+	margin-right:9px;
+	padding-right:9px;
+	color:#666;
+	text-decoration:none;
+	}
+.txtSearch :selected {
+	border:hidden;
+}
