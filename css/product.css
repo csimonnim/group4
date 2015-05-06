@@ -1,0 +1,9 @@
+.inner{display: table; margin: 0px auto; border: 0px solid red}
+#container > br {display: none;}
+.product {width:100%;}
+.product td {text-align:center;}
+
+.control_product {width:742px; margin:0px 0px 0px 0px; border:1px solid #CCC; border-radius:3px;}
+.control_title {background:#f4f4f4; border:1px solid #dcdcdc; width:740px; height:42px; margin:0px auto; font-weight:bold; color:#333;}
+.control_list_product {border:0px solid #CF0; width:740px; height:335px; background:#FFF;}
+.control_text_title {text-align:center; margin-top:10px;}

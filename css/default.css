@@ -1,12 +1,25 @@
 .inner{display: table; margin: 0px auto; border: 0px solid red}
 #container > br {display: none;}
-body{background:white url(images/header.gif) repeat-x; margin:0px; padding:0px}
-.account a{
-	margin-right:9px;
-	padding-right:9px;
-	color:#666;
-	text-decoration:none;
-	}
-.txtSearch :selected {
-	border:hidden;
-}
+
+body{background:#ebebeb url(images/header.gif) repeat-x; margin:0px; padding:0px}
+
+.account a{margin-right:9px;padding-right:9px;color:#666;text-decoration:none;}
+.txtSearch :selected {border:hidden;}
+
+.control_product {width:742px; margin:21px 0px 0px 0px; border:1px solid #CCC; border-radius:3px;}
+.control_title {background:#f4f4f4; border:1px solid #dcdcdc; width:740px; height:42px; margin:0px auto; font-weight:bold; color:#333;}
+.control_list_product {border:0px solid #CF0; width:740px; height:335px; background:#FFF;}
+.control_text_title {margin:10px 0px 0px 20px;}
+
+.control_promote {width:235px; margin:21px 0px 0px 0px; border:1px solid #CCC; border-radius:3px;}
+.control_promote_title {background:#f4f4f4; border:1px solid #dcdcdc; width:233px; height:42px; margin:0px auto; font-weight:bold; color:#333;}
+.control_list_promote_product {border:0px solid #CF0; width:233px; height:335px; background:#FFF;}
+.control_text_promote_title {margin:10px 0px 0px 20px;}
+
+.control_list_single_product {width:740px; margin:21px 0px 0px 0px; border:1px solid #CCC; background:#FFF; border-radius:3px;}
+.control_list_single_product_full {float:left; margin:25px 0px 0px 0px; border:1px solid #CCC; background:#FFF; border-radius:3px;}
+
+#content_left {float:left !important;border:0px solid #00F}
+#content_right {float:right !important; border:0px solid #00F}
+
+.watch_icon {background:#FFF url(images/watch_icon.gif) no-repeat; width:45px; height:42px; float:left; margin-right:16px;}
