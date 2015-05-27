@@ -1,0 +1,21 @@
+.inner{display: table; margin: 0px auto; border: 0px solid red}
+#container > br {display: none;}
+body{background:#ebebeb}
+.form_login {width:50%; height:270px; margin:40px auto auto auto; border:3px solid #FFF; padding-top:80px; border-radius:10px; background:#CCC;}
+.control {margin:15px 10px; text-align:center; border:0px solid #333;}
+#txtEmail {margin-left:20px;}
+.textbox { padding-left:5px; height:23px; width:200px; border-radius:10px; color:#666;}
+.textbox:focus {outline:none; border:1px solid #FFF;}
+.button {margin-left:20px; width:80px; height:25px; margin-top:10px; color:#06F; border-radius:7px; background:#FFF;}
+#btnLogin {margin-left:70px;}
+.typeLink {display:block; width:130px; height:22px; border:1px solid #666; background:#FFF; color:#00F; text-decoration:none; border-radius:5px; text-transform:lowercase !important;}
+.type {float:left; text-align:center; margin-right:10px;}
+.typeLink_active {border-radius:5px; display:block; width:130px; height:22px; border:1px solid #00F; color:#FFF; text-decoration:none; background:#666 url(images/cloud-ok-icon.png) no-repeat left; text-transform:lowercase !important;}
+.title_login {background:url(images/reseller-account-icon.png) no-repeat left; padding-top:3px; height:35px; text-align:center; margin:0px auto; width:15%; margin-top:40px;}
+.reg_for {text-decoration:none; color:#666;}
+.reg_for:hover {color:#06F;}
+
+/* responsive block */
+@media screen only and {max-width: 480px}{
+	.form_login {width:40%; height:270px; margin:40px auto auto 0px; border:3px solid #FFF; padding-top:80px; border-radius:10px; background:#CCC;}
+}

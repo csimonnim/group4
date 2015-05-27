@@ -1,9 +1,16 @@
-.inner{display: table; margin: 0px auto; border: 0px solid red}
-#container > br {display: none;}
-.product {width:100%;}
+.product {width:100% !important; max-width:1050px none;}
 .product td {text-align:center;}
 
-.control_product {width:742px; margin:0px 0px 0px 0px; border:1px solid #CCC; border-radius:3px;}
-.control_title {background:#f4f4f4; border:1px solid #dcdcdc; width:740px; height:42px; margin:0px auto; font-weight:bold; color:#333;}
-.control_list_product {border:0px solid #CF0; width:740px; height:335px; background:#FFF;}
-.control_text_title {text-align:center; margin-top:10px;}
+.control_product {float:left; width:100%; margin:0px 0px 0px 0px; border:0px solid #F00; border-radius:3px;}
+.control_title {float:left; background:#f4f4f4; border:1px solid #dcdcdc; width:99.95%; height:40px; margin:0px 2px; font-weight:bold; color:#333;}
+.control_list_product {border:0px solid #00F; width:99.80%; background:#FFF; margin-bottom:15px; height:100%; float:left; overflow:auto;}
+.control_text_title {text-align:center; margin-top:10px; border:0px solid #F00; float:left; width:100%;}
+.control_button_pro {float:left; width:100%; border:0px solid #F00; margin-top:15px;}
+
+.add_pro {margin:15px 0px 0px 40px; text-align:start !important;}
+.textbox {border:2px solid #CCC;}
+.select {width:172px;}
+.textarea {width:200px; max-width:250px; height:80px; max-height:80px; font-family:Arial, Helvetica, sans-serif;}
+.button {width:80px; background:#03F; color:#CCC; margin:0px 0px 15px 30px; border-radius:9px}
+.button_a {width:90px; height:30px; background:#03F; color:#CCC; margin:15px 0px 15px 20px; border-radius:10px;}
+.msg {margin:0px; padding:0px; color:#FFF; text-shadow:1px 1px #999999; font-weight:bold; margin-bottom:10px; display:block !important; background:#666;}
